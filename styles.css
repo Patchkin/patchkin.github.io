@@ -1,10 +1,39 @@
 * {box-sizing: border-box;}
 
+html{ background-color:  rgba(50, 150, 220, 1);
+
+}
+
+.page_color{  color:white;}
+.text_color{    color: white;}
+
+table, th, td {
+      
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+table{      height: 40%; 
+      width: 45%;    
+       margin-left: 400px;
+      background-color: lightsalmon}
+
+.profile_pic{     width:50px;
+                  height:50px;}
+
+.larger_battleship{     width: 100px;
+                        height: 100px;}
+
+
+
+
+h3{   color: white;}
+
 body {font-family: Helvetica, Arial, sans-serif;
       margin: 0;
       padding: 0;}
 
-.navbar {background-color: rgba(50, 150, 220, 1);
+.navbar {background-color: white;
          display: flex;
          align-items: center;
          justify-content: space-between;
@@ -13,7 +42,7 @@ body {font-family: Helvetica, Arial, sans-serif;
          position: fixed;
          top: 0;
          overflow: hidden;
-         color: white;
+         color: rgba(50, 150, 220, 1);
          padding: 25px 25px;}
 
 .navbar ul {display: flex;}
@@ -22,7 +51,7 @@ body {font-family: Helvetica, Arial, sans-serif;
 
 .navbar ul li a {display: block;
                  text-decoration: none;
-                 color: white;
+                 color: rgba(50, 150, 220, 1);
                  padding: 1rem;}
 
 .navbar ul li a:hover {background-color: rgb(200, 200, 200);}
@@ -47,7 +76,7 @@ body {font-family: Helvetica, Arial, sans-serif;
   .navbar input:checked ~ ul{display: block;
                              position: absolute;
                              top: 100%;
-                             background:rgba(50, 150, 220, 1);
+                             background:white;
                              border: solid;
                              left: 0px;
                              width: 100%;
@@ -62,16 +91,10 @@ main {margin-top: 50px;
       height: 1500px;
       text-align: center;}
 
-.game--container {display: grid;
-                  grid-template-columns: repeat(3, auto);
-                  width: 306px;
-                  margin: 50px auto;}
-
-.cell {font-family: "Permanent Marker", cursive;
-       width: 100px;
-       height: 100px;
-       box-shadow: 0 0 0 1px #333333;
-       border: 1px solid #333333;
-       cursor: pointer;
-       line-height: 100px;
-       font-size: 60px;}
+.image_display{ display:block;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 8px;
+                width:300px;
+                padding-top: 20px;
+                padding-bottom: 20px;}
